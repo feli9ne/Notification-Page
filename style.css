@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+body{
+ background: hsl(210, 60%, 98%);
+ display: flex;
+ justify-content: center;
+ font-family: 'Plus Jakarta Sans';
+}
+.container{
+ background: hsl(0, 0%, 100%);
+ display: flex;
+ border-radius: 5px;
+ flex-direction: column;
+ justify-content: center;
+ padding: 10px 20px;
+ width: 50%;
+ box-shadow: 0px 0px 10px 1px hsl(219, 12%, 42%),
+ 0px 0px 0px 1px hsl(219, 12%, 42%);
+}
+
+.container img{
+ margin-right: 10px;
+}
+.container p{
+ color: hsl(219, 12%, 42%);
+}
+.navbar{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+}
+.bar1{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.bar1 p{
+ background:hsl(219, 12%, 42%);
+ color: hsl(0, 0%, 100%);
+ width: 20px;
+ text-align: center;
+ margin-left: 10px;
+ border-radius: 5px;
+}
+.bar1 h3{
+ font-family: 'Plus Jakarta Sans';
+ font-weight: 800;
+}
+.line{
+ display: flex;
+ align-items: center;
+ background: hsl(211, 68%, 94%);
+ margin: 5px 0px;
+ border-radius: 5px;
+ padding: 5px 10px;
+}
+.bold{
+ font-weight: 800;
+}
+.light{
+ font-weight: 600;
+}
+
+.line-two{
+display: flex;
+align-items: center;
+background: hsl(211, 68%, 94%);
+margin: 5px 0px;
+padding: 5px 10px;
+border-radius: 5px;
+}
+.line-three{
+ display: flex;
+ align-items: center;
+ background: hsl(211, 68%, 94%);
+ margin: 5px 0px;
+ padding: 5px 10px;
+ border-radius: 5px;
+}
+.Chess{
+ color:  hsl(219, 85%, 26%);
+}
+.line-four{
+ display: flex;
+ border-radius: 5px;
+ justify-content: center;
+ margin: 5px 0px;
+ padding: 5px 10px;
+}
+
+.message{
+ text-align: justify;
+ border: 1px solid hsl(219, 14%, 63%);
+ border-radius: 5px;
+ width: 95%;
+ 
+}
+.message p{
+padding: 0px 5px;
+}
+
+.line-five{
+ display: flex;
+ align-items: center;
+ margin: 5px 0px;
+ padding: 5px 10px;
+ border-radius: 5px;
+ justify-content: space-between;
+}
+.cover-5{
+ display: flex;
+ align-items: center;
+}
+.line-six{
+ display: flex;
+ align-items: center;
+ margin: 5px 0px;
+ padding: 5px 10px;
+ border-radius: 5px;
+}
+.strategy{
+ color: hsl(219, 12%, 42%);
+}
+
+.line-seven{
+ display: flex;
+ align-items: center;
+ margin: 5px 0px;
+ padding: 5px 10px;
+ border-radius: 5px;
+}
+@media(max-width:900px){
+ .container{
+  width: 100vw;
+ }
+ .navbar{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+}
+.line, .line-two,.line-three,.line-four,
+.line-six,.line-seven{
+display: flex;
+align-items: flex-start;
+}
+.line-five{
+ display: flex;
+justify-content: space-between;
+}
+}
